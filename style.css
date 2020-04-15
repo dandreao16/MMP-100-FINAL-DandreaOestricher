@@ -1,0 +1,118 @@
+/***********************************/
+
+/* NAVBAR HORIZONTAL */
+.nav-container{ 	
+width:100%; 
+background-color: #cc6600;
+box-shadow: 2px 2px 20px #7E7F79;  
+position:fixed; 
+left:0;  
+top:0;
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:18px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-container li{
+float: left; /*each seperate item tries to float left*/
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 130px; 
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #cc6600; /*colors the buttons initially*/
+color:#cc6600;
+} 
+
+.nav-container a:hover{ 
+background-color: #d7dce5;
+/* changes link-box color on rollover*/ 
+}
+
+.nav-container a:visited{ 
+background-color: #d5e5e4;
+/* changes link-box color on rollover*/ 
+}
+/***********************************/
+
+/* AMERICANLIFE BANNER*/
+
+.mybanner{ 
+	/*box-sizing:border-box;
+	display:block;*/
+	max-width:100%; 
+	max-height: auto;
+	margin:0 auto;
+	}
+
+/***********************************/
+
+/* AUDIO
+I made the class below for the div, made
+to contain the photo & the audio "player" 
+together*/
+
+.mydiv{
+	box-sizing:border-box;
+	border: solid 15px #cccccc;
+	padding: 0;
+	float:left;
+	margin: 25px 25px 25px 0;
+	}
+	/*this is shared by both photos*/
+.center-responsive{ 
+	display:block;
+	max-width:100%; 
+	max-height: 100%;
+	margin:0 auto;
+	}
+	/*the "audio" elemnt was too narrow*/
+audio{
+ 	width:100%;
+}
+
+/***********************************/
+
+/* VIDEO */
+.video-apollo{
+	clear:left;
+	float:left;
+	margin: 0 15px 15px 0;
+	border: solid 15px #cccccc;
+	padding: 0;
+}
+
+/***********************************/
+
+/* GIF animation */
+.anim2{
+	border: solid 15px #cccccc;
+	
+}
+/***********************************/
+/*The rest is mostly old stuff*/
+body{
+	margin: 80px 15% 50px 15%;
+	background-color: #f8f9ed;
+	/* A Google Font*/
+	font-family: 'Pathway Gothic One', sans-serif;	
+	color:#115268;
+	}
+
+h2{
+	font-size: 36px;
+	margin-bottom: 0;
+	}
+p{
+	text-align: justify;
+	}
